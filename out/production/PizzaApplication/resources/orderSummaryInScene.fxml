@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.OrderSummaryInSceneController">
+   <children>
+      <Label layoutX="329.0" layoutY="40.0" text="PODSUMOWANIE ZAMÓWIENIA">
+         <font>
+            <Font name="DIN Condensed Bold" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="pizzaTotalCostLabel" layoutX="286.0" layoutY="291.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="179.0" text="Cena ciasta:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="235.0" text="Cena dodatków:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="518.0" layoutY="179.0" text="Rozmiar:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="841.0" layoutY="179.0" text="Dodatki:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="pizzaSizeLabel" layoutX="628.0" layoutY="179.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="pizzaPriceLabel1" layoutX="287.0" layoutY="235.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="pizzaPriceLabel" layoutX="287.0" layoutY="179.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="allExtrasLabel" layoutX="949.0" layoutY="148.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="290.0" text="Cena całkowita:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Pane layoutY="708.0" prefHeight="100.0" prefWidth="1240.0" style="-fx-background-color: orange;">
+         <children>
+            <Label layoutX="114.0" layoutY="39.0" text="Dziękujemy za dokonanie zamówienia. Twoja pizza będzie na ciebie oczekiwać w lokalu za około 45minut.">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="386.0" layoutY="589.0" mnemonicParsing="false" onAction="#saveToFile" prefHeight="67.0" prefWidth="176.0" text="Zapisz do pliku" />
+      <Button layoutX="673.0" layoutY="589.0" mnemonicParsing="false" onAction="#orderAgain" prefHeight="67.0" prefWidth="176.0" text="Zamów ponownie" />
+   </children>
+</AnchorPane>
