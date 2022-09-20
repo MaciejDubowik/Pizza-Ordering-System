@@ -24,8 +24,8 @@ https://www.youtube.com/watch?v=SECyGI_MhXM
 
 ## Screenshots
 
-![App Screenshot](https://imgur.com/jRUMNzO)
-![App Screenshot](https://imgur.com/tWO1Oty)
-![App Screenshot](https://imgur.com/TqPrjoJ)
-![App Screenshot](https://imgur.com/aA174Wy)
+![App Screenshot](https://i.imgur.com/jRUMNzO.png)
+![App Screenshot](https://i.imgur.com/tWO1Oty.png)
+![App Screenshot](https://i.imgur.com/TqPrjoJ.png)
+![App Screenshot](https://i.imgur.com/aA174Wy.png)
 
